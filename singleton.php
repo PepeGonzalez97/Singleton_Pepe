@@ -31,9 +31,6 @@ class Singleton
     }
 }
 
-/**
- * The client code.
- */
 function clientCode()
 {
     $s1 = Singleton::getInstance();
